@@ -1,5 +1,5 @@
 main {
-    background: url(/src/assets/images/fundo-cabecalho.png);
+    background: url(../assets/images/background-completo.png);
     background-size: cover;
     min-height: 60vh;
   }
