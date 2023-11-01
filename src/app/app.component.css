@@ -1,0 +1,7 @@
+main {
+    background: url(/src/assets/images/fundo-cabecalho.png);
+    background-size: cover;
+    min-height: 60vh;
+  }
+
+
