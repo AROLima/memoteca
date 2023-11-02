@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CriarPensamentosComponent } from './components/pensamentos/criar-pensamentos/criar-pensamentos.component';
 
 @NgModule({
-  declarations: [
+  declarations: [ //components, directives and pipes
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CriarPensamentosComponent
   ],
-  imports: [
+  imports: [  //modules
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule 
   ],
-  providers: [],
+  providers: [], //services
   bootstrap: [AppComponent] //first component to load
 })
-export class AppModule { }
+export class AppModule { } //main module
