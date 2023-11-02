@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class CriarPensamentosComponent {
 
+  pensamento = {
+    id: "1",
+    conteudo: "aprendendo angular",
+    autoria: "dev",
+    modelo: ""
+  }
+
 }
